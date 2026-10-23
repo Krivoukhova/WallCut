@@ -1,0 +1,423 @@
+{
+  "segments": [
+    {
+      "id": "f1",
+      "name": "The Big Idea",
+      "background": {
+        "type": "gradient",
+        "angle": 145,
+        "stops": [
+          {
+            "color": "#111827",
+            "position": 0
+          },
+          {
+            "color": "#1d263b",
+            "position": 55
+          },
+          {
+            "color": "#101014",
+            "position": 100
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "type": "badge",
+          "text": "WALLCUT  /  CREATOR STUDIO",
+          "x": 540,
+          "y": 245,
+          "width": 520,
+          "height": 70,
+          "fontSize": 26,
+          "fontWeight": 800,
+          "padding": "18px 28px",
+          "backgroundColor": "#243b35",
+          "textColor": "#a7f3d0",
+          "borderRadius": 999,
+          "layer": "other",
+          "zIndex": 5,
+          "animation": "fade"
+        },
+        {
+          "type": "text",
+          "text": "MAKE IDEAS",
+          "x": 540,
+          "y": 435,
+          "fontSize": 94,
+          "fontWeight": 900,
+          "color": "#f8fafc",
+          "layout": {
+            "position": "center"
+          },
+          "layer": "text",
+          "zIndex": 4,
+          "animation": "slide"
+        },
+        {
+          "type": "text",
+          "text": "MOVE PEOPLE",
+          "x": 540,
+          "y": 550,
+          "fontSize": 94,
+          "fontWeight": 900,
+          "color": "#f8fafc",
+          "layer": "text",
+          "zIndex": 4,
+          "animation": "slide"
+        },
+        {
+          "type": "text",
+          "text": "A modern visual story starts here.",
+          "x": 540,
+          "y": 675,
+          "fontSize": 34,
+          "fontWeight": 500,
+          "color": "#aab4c5",
+          "layer": "text",
+          "zIndex": 4,
+          "animation": "fade"
+        },
+        {
+          "type": "metric",
+          "metric": {
+            "value": "+42%",
+            "label": "Engagement growth",
+            "icon": "↗",
+            "direction": "up"
+          },
+          "x": 540,
+          "y": 1000,
+          "width": 800,
+          "height": 430,
+          "fontSize": 128,
+          "fontWeight": 900,
+          "color": "#8bf0c5",
+          "backgroundColor": "#18352f",
+          "borderRadius": 36,
+          "layer": "text",
+          "zIndex": 3,
+          "animation": "pop"
+        },
+        {
+          "type": "text",
+          "text": "CAMPAIGN GOAL",
+          "x": 540,
+          "y": 1375,
+          "fontSize": 26,
+          "fontWeight": 800,
+          "color": "#9ca3af",
+          "layer": "text",
+          "zIndex": 3
+        },
+        {
+          "type": "progress",
+          "fromValue": 0,
+          "toValue": 82,
+          "fillDuration": 2.4,
+          "startFrame": 0,
+          "duration": 150,
+          "animation": {
+            "enter": "none",
+            "exit": "none",
+            "exitDuration": 12
+          },
+          "width": 820,
+          "height": 34,
+          "x": 540,
+          "y": 1455,
+          "color": "#8bf0c5",
+          "backgroundColor": "#283340",
+          "borderRadius": 999,
+          "layer": "other",
+          "zIndex": 3
+        },
+        {
+          "type": "text",
+          "text": "82% OF TARGET",
+          "x": 540,
+          "y": 1525,
+          "fontSize": 27,
+          "fontWeight": 700,
+          "color": "#d1fae5",
+          "layer": "text",
+          "zIndex": 3
+        },
+        {
+          "type": "circle",
+          "x": 100,
+          "y": 250,
+          "width": 130,
+          "height": 130,
+          "backgroundColor": "#8bf0c5",
+          "opacity": 0.18,
+          "layer": "shape",
+          "zIndex": 1
+        },
+        {
+          "type": "circle",
+          "x": 950,
+          "y": 1600,
+          "width": 230,
+          "height": 230,
+          "backgroundColor": "#818cf8",
+          "opacity": 0.18,
+          "layer": "shape",
+          "zIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "name": "Performance Snapshot",
+      "background": {
+        "type": "gradient",
+        "angle": 155,
+        "stops": [
+          {
+            "color": "#10141f",
+            "position": 0
+          },
+          {
+            "color": "#182b34",
+            "position": 100
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "type": "badge",
+          "text": "WEEKLY REPORT",
+          "x": 540,
+          "y": 230,
+          "width": 350,
+          "height": 66,
+          "fontSize": 26,
+          "fontWeight": 800,
+          "padding": "16px 26px",
+          "backgroundColor": "#183b49",
+          "textColor": "#7dd3fc",
+          "borderRadius": 999,
+          "layer": "other",
+          "zIndex": 4,
+          "animation": "fade"
+        },
+        {
+          "type": "text",
+          "text": "GROWTH IN MOTION",
+          "x": 540,
+          "y": 365,
+          "fontSize": 66,
+          "fontWeight": 900,
+          "color": "#f8fafc",
+          "layer": "text",
+          "zIndex": 4,
+          "animation": "slide"
+        },
+        {
+          "type": "barChart",
+          "values": [
+            32,
+            46,
+            41,
+            63,
+            72,
+            91
+          ],
+          "labels": [
+            "W1",
+            "W2",
+            "W3",
+            "W4",
+            "W5",
+            "W6"
+          ],
+          "width": 900,
+          "height": 520,
+          "x": 540,
+          "y": 820,
+          "color": "#5eead4",
+          "backgroundColor": "#17232c",
+          "borderRadius": 24,
+          "layer": "other",
+          "zIndex": 3,
+          "animation": "smooth"
+        },
+        {
+          "type": "stat",
+          "stat": {
+            "value": "+68%",
+            "label": "Audience growth",
+            "detail": "Compared with last month",
+            "icon": "↗",
+            "direction": "up"
+          },
+          "x": 540,
+          "y": 1550,
+          "width": 800,
+          "height": 390,
+          "fontSize": 100,
+          "fontWeight": 900,
+          "color": "#a5f3fc",
+          "backgroundColor": "#172a32",
+          "borderRadius": 32,
+          "padding": 36,
+          "layer": "other",
+          "zIndex": 3,
+          "animation": "pop"
+        },
+        {
+          "type": "line",
+          "x": 540,
+          "y": 1240,
+          "width": 700,
+          "height": 4,
+          "backgroundColor": "#5eead4",
+          "color": "#5eead4",
+          "strokeWidth": 4,
+          "opacity": 0.45,
+          "layer": "shape",
+          "zIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "name": "From Plan to Progress",
+      "background": {
+        "type": "gradient",
+        "angle": 135,
+        "stops": [
+          {
+            "color": "#1b1630",
+            "position": 0
+          },
+          {
+            "color": "#151821",
+            "position": 100
+          }
+        ]
+      },
+      "blocks": [
+        {
+          "type": "badge",
+          "text": "THE WORKFLOW",
+          "x": 540,
+          "y": 240,
+          "width": 330,
+          "height": 66,
+          "fontSize": 26,
+          "fontWeight": 800,
+          "padding": "16px 26px",
+          "backgroundColor": "#352a55",
+          "textColor": "#ddd6fe",
+          "borderRadius": 999,
+          "layer": "other",
+          "zIndex": 4,
+          "animation": "fade"
+        },
+        {
+          "type": "text",
+          "text": "LESS FRICTION.",
+          "x": 540,
+          "y": 420,
+          "fontSize": 76,
+          "fontWeight": 900,
+          "color": "#f5f3ff",
+          "layer": "text",
+          "zIndex": 4,
+          "animation": "slide"
+        },
+        {
+          "type": "text",
+          "text": "MORE MOMENTUM.",
+          "x": 540,
+          "y": 520,
+          "fontSize": 76,
+          "fontWeight": 900,
+          "color": "#f5f3ff",
+          "layer": "text",
+          "zIndex": 4,
+          "animation": "slide"
+        },
+        {
+          "type": "comparison",
+          "comparison": {
+            "left": {
+              "title": "BEFORE",
+              "value": "24 hours"
+            },
+            "right": {
+              "title": "AFTER",
+              "value": "6 hours"
+            },
+            "arrow": "→"
+          },
+          "x": 540,
+          "y": 900,
+          "width": 1000,
+          "height": 520,
+          "layer": "other",
+          "zIndex": 3,
+          "animation": "smooth"
+        },
+        {
+          "type": "stat",
+          "stat": {
+            "value": "4×",
+            "label": "Faster turnaround",
+            "detail": "More time for the creative work",
+            "icon": "✦",
+            "direction": "up"
+          },
+          "x": 540,
+          "y": 1430,
+          "width": 790,
+          "height": 370,
+          "fontSize": 104,
+          "fontWeight": 900,
+          "color": "#c4b5fd",
+          "backgroundColor": "#26213b",
+          "borderRadius": 34,
+          "padding": 30,
+          "layer": "other",
+          "zIndex": 3,
+          "animation": "pop"
+        },
+        {
+          "type": "bar",
+          "fromValue": 0,
+          "toValue": 75,
+          "fillDuration": 1.8,
+          "startFrame": 0,
+          "duration": 150,
+          "width": 740,
+          "height": 20,
+          "x": 540,
+          "y": 1690,
+          "color": "#a78bfa",
+          "backgroundColor": "#38304f",
+          "borderRadius": 999,
+          "layer": "other",
+          "zIndex": 3,
+          "animation": {
+            "enter": "none",
+            "exit": "none",
+            "exitDuration": 12
+          }
+        },
+        {
+          "type": "text",
+          "text": "IDEA  →  STORY  →  IMPACT",
+          "x": 540,
+          "y": 1780,
+          "fontSize": 26,
+          "fontWeight": 800,
+          "color": "#c4b5fd",
+          "layer": "text",
+          "zIndex": 3
+        }
+      ]
+    }
+  ]
+}

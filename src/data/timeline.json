@@ -1,0 +1,50 @@
+{
+  "fps": 30,
+  "sampleRate": 48000,
+  "voice": "ru_oksana",
+  "segments": [
+    {
+      "id": "f1",
+      "text": "Инфляция растёт быстрее, чем кажется.",
+      "sampleRate": 48000,
+      "samples": 168600,
+      "startTime": 0.0,
+      "endTime": 3.5125,
+      "duration": 3.5125,
+      "startFrame": 0,
+      "endFrame": 105,
+      "durationFrames": 105
+    },
+    {
+      "id": "f2",
+      "text": "За год цены выросли на тридцать пять процентов.",
+      "sampleRate": 48000,
+      "samples": 160800,
+      "startTime": 3.5125,
+      "endTime": 6.8625,
+      "duration": 3.35,
+      "startFrame": 105,
+      "endFrame": 206,
+      "durationFrames": 101
+    },
+    {
+      "id": "f3",
+      "text": "Но почему это происходит?",
+      "sampleRate": 48000,
+      "samples": 99600,
+      "startTime": 6.8625,
+      "endTime": 8.9375,
+      "duration": 2.075,
+      "startFrame": 206,
+      "endFrame": 268,
+      "durationFrames": 62
+    }
+  ],
+  "totalSamples": 429000,
+  "totalDuration": 8.9375,
+  "totalFrames": 268,
+  "voiceover": {
+    "file": "",
+    "publicPath": ""
+  }
+}

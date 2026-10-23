@@ -1,0 +1,47 @@
+{
+  "name": "wallcut",
+  "version": "1.0.0",
+  "description": "A browser-based video editor built with React, TypeScript, Vite, and Remotion",
+  "repository": {
+    "url": "https://github.com/Krivoukhova/WallCut.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@remotion/canvas": "4.0.532",
+    "@remotion/cli": "4.0.532",
+    "@remotion/media": "4.0.532",
+    "@remotion/player": "4.0.532",
+    "@remotion/web-renderer": "4.0.532",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "^4.0.538",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/web": "0.0.166",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "10.13.0",
+    "prettier": "3.8.1",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3",
+    "vite": "^6.4.5"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "editor": "vite --config vite.config.ts",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "test": "tsx src/tests/runCoreTests.ts",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,mjs,cjs,json,css,scss,html,md,yml,yaml}\" \"*.{ts,tsx,js,jsx,mjs,cjs,json,css,scss,html,md,yml,yaml}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,mjs,cjs,json,css,scss,html,md,yml,yaml}\" \"*.{ts,tsx,js,jsx,mjs,cjs,json,css,scss,html,md,yml,yaml}\"",
+    "check": "npm run format:check && npm run lint && npm test && npm run build"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "esbuild@0.25.12": true
+  }
+}
